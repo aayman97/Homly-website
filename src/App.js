@@ -236,7 +236,7 @@ function App() {
                   />
                   <h1>John Walker<span><br></br>Customer</span></h1>
                   <div className='dots'>
-                      <div className='dot'>
+                      <div className='dot dotPressed'>
 
                       </div>
 
@@ -254,7 +254,38 @@ function App() {
       </div>
 
       <div className='lastApp'>
+            <h4>Newsletter</h4>
+            <h1>Get the lastest news and update</h1>
+            
+            <div className='emailAndSubscribe'>
+              <input type='text' placeholder='Enter Your Email'/>
+              <button>Subscribe Now</button>
+            </div>
+            
+            <div className='aboutUsContainer'>
+                <div className='aboutUs'>
+                    <h4>About Us</h4>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                </div>
 
+                <div className='CompanyInfo'>
+                   <h4>Company Info</h4>
+                   <h2>About Us</h2>
+                   <h2>Terms and Conditions</h2>
+                   <h2>User Guide</h2>
+                   <h2>Support</h2>
+                </div>
+
+                <div className='CompanyInfo'>
+                   <h4>Useful Links</h4>
+                   <h2>About Us</h2>
+                   <h2>Terms and Conditions</h2>
+                   <h2>User Guide</h2>
+                   <h2>Support</h2>
+                </div>
+            </div>
+
+            <h2 className='copyright'>Copyright by @restat</h2>
       </div>
     </>
   );

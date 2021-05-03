@@ -75,11 +75,11 @@ function App() {
 
           <section className='rightSection'>
             <img
-              src={living}
+              src={living6}
               className='imagesss one'
             />
             <img
-              src={living2}
+              src={living5}
               className='imagesss two'
             />
           </section>
